@@ -1,0 +1,163 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Itim&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Slab:wght@100..900&display=swap');
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+h1 {
+    font-family: "Roboto Slab", serif;
+}
+
+p {
+    font-family: "Inter", sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0;
+}
+.header-link{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    
+
+}
+a{
+    text-decoration: none;
+    color:oklch(37.3% 0.034 259.733) ;
+    font-size: 0.8rem;
+
+}
+a:hover{
+    color: black;
+}
+.container{
+    height: 100%;
+    background:linear-gradient(to bottom,white,oklch(93.2% 0.032 255.585) ,white);
+    margin: 0;
+    position: relative;
+}
+*{
+    margin: 0;
+}
+.log{
+    font-weight: bold;
+    font-size: 1rem;
+    
+
+}
+.btn{
+    padding:7px 6px;
+    font-size: 0.8rem;
+    border-radius: 0.4rem;
+    border: none;
+    background-color: oklch(62.3% 0.214 259.815);
+    color: white;
+    text-shadow: 1px 1px 1px rgb(0,0,0,0.25);
+    box-shadow: 0px 4px 4px rgb(0,0,0,0.25)
+
+}
+.hero-section{
+    padding: 50px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero-section span{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    padding: 2px 8px;
+    justify-content: center;
+    border: 1px solid oklch(86.9% 0.022 252.894);
+    border-radius: 20px;
+    background-color: oklch(92.9% 0.013 255.508);
+    font-size: 0.7rem;
+     transition: all 0.8s ease-in;
+    &:hover{
+        background-color: oklch(70.7% 0.022 261.325);
+       
+    }
+
+}
+.Header{
+    text-align: center;
+}
+.Header h1{
+    font-size: 3rem;
+    letter-spacing: 0.6px;
+    line-height: 1;
+
+}
+.text{
+    padding: 20px 0px;
+    font-size: 0.8rem;
+    color: oklch(55.1% 0.027 264.364);
+}
+.second{
+    display: inline-flex;
+    background-color: transparent;
+    margin-left: 20px;
+    gap:6px;
+    align-items: center;
+    padding: 8px 16px;
+    border: none;
+     font-size: 0.8rem;
+    border-radius: 4px;
+    letter-spacing: 0.8px;
+    
+ 
+
+    &:hover{
+        background-color: oklch(97% 0 0)
+    }
+    
+}
+
+
+.second span {
+    display: flex; /* Ensures the SVG is centered */
+    align-items: center;
+}
+.line-left{
+    width: 0.5px;
+    height: 100%;
+    background-color:oklch(70.4% 0.04 256.788);
+    position: absolute;
+    left:80px;
+    opacity: 0.3;
+}
+.line-right{
+      width: 0.5px;
+    height: 100%;
+    background-color:oklch(70.4% 0.04 256.788);
+    position: absolute;
+    right:80px;
+    opacity: 0.3;
+}
+img{
+    height: auto;
+    width: 900px;
+    object-fit:contain;
+    border-radius: 3px;
+    box-shadow: 0px 4px 4px rgb(0,0,0,0.25)
+
+    
+}
+.pic{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    object-fit: cover;
+    height: 100vh;
+
+}
+
+
+
+
+
+
